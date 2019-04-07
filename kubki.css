@@ -17,4 +17,23 @@ h1{
     margin: 20px;
     background-size: 200% 200%;
     background-image: linear-gradient(to top, #FFF700 50%, transparent 50% );
+    transition: background-position 500ms;
+}
+.zolta{
+    background-image: linear-gradient(to top, #FFF700 50%, transparent 50%);
+}
+.zielona {
+    background-image: linear-gradient(to top, #299617 50%, transparent 50%);
+}
+.niebieska {
+    background-image: linear-gradient(to top, #5DADEC 50%, transparent 50%);
+}
+.fioletowa {
+    background-image: linear-gradient(to top, #9C51B6 50%, transparent 50%);
+}
+.czerwona {
+    background-image: linear-gradient(to top, #FF3855 50%, transparent 50%);
+}
+.brazowa {
+    background-image: linear-gradient(to top, #A83731 50%, transparent 50%);
 }
