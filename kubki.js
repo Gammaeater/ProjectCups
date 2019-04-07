@@ -15,4 +15,4 @@ function kubekKlik(evt){
 let kubki = document.querySelectorAll('.kubek');
 kubki.forEach(kubek => {
     kubek.addEventListener('click', kubekKlik)
-})
+});
