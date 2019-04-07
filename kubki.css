@@ -1,0 +1,20 @@
+h1{
+    font-family: 'Lobster Two',
+    cursive;
+    text-align: center;
+    font-size: 60px;
+    transform:  rotate(-10deg);
+}
+.kubek{
+    width:200px;
+    height:200px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    float: left;
+    margin: 20px;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to top, #FFF700 50%, transparent 50% );
+}
