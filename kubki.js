@@ -16,3 +16,14 @@ let kubki = document.querySelectorAll('.kubek');
 kubki.forEach(kubek => {
     kubek.addEventListener('click', kubekKlik)
 });
+
+var body = document.querySelector('BODY');
+
+body.addEventListener('mousemove', runEvent);
+
+function runEvent(e){
+    console.log('Evet Type:'+ e.type);
+
+document.body.style.backgroundColor ="rgb("+ e.offsetX+","+ e.offsetY+",40)";
+
+}
