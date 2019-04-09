@@ -1,9 +1,11 @@
+
+
 function kubekKlik(evt){
-    let poziom = Number(this.getAttribute('poziom'));
-    poziom += 24;
-    if (poziom <= 96){
-        this.style.backgroundPosition = "0 " + poziom +"%";
-        this.setAttribute('poziom', poziom);
+    var level = Number(this.getAttribute('level'));
+    level += 24;
+    if (level <= 96){
+        this.style.backgroundPosition= "0 " + level +"%";
+        this.setAttribute('level', level);
     }else{
         this.style.cursor ="not-allowed";
 
@@ -12,9 +14,9 @@ function kubekKlik(evt){
 }
 
 
-let kubki = document.querySelectorAll('.kubek');
-kubki.forEach(kubek => {
-    kubek.addEventListener('click', kubekKlik)
+let cups = document.querySelectorAll('.cup');
+cups.forEach(cup => {
+    cup.addEventListener('click', kubekKlik)
 });
 
 var body = document.querySelector('BODY');
@@ -27,3 +29,6 @@ function runEvent(e){
 document.body.style.backgroundColor ="rgb("+ e.offsetX+","+ e.offsetY+",40)";
 
 }
+
+
+

@@ -8,7 +8,7 @@ h1{
     font-size: 60px;
     transform:  rotate(-10deg);
 }
-.kubek{
+.cup {
     width:200px;
     height:200px;
     border-left: 3px solid black;
@@ -22,24 +22,24 @@ h1{
     background-image: linear-gradient(to top, #FFF700 50%, transparent 50% );
     transition: background-position 500ms;
 }
-.zolta{
+.yellow{
     background-image: linear-gradient(to top, #FFF700 50%, transparent 50%);
 }
-.zielona {
+.green {
     background-image: linear-gradient(to top, #299617 50%, transparent 50%);
 }
-.niebieska {
+.blue {
     background-image: linear-gradient(to top, #5DADEC 50%, transparent 50%);
 }
-.fioletowa {
+.purple {
     background-image: linear-gradient(to top, #9C51B6 50%, transparent 50%);
 }
-.czerwona {
+.red {
     background-image: linear-gradient(to top, #FF3855 50%, transparent 50%);
 }
-.brazowa {
+.brown{
     background-image: linear-gradient(to top, #A83731 50%, transparent 50%);
 }
-.rama{
+.border{
     border:solid black 2px
 }
