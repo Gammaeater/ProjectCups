@@ -40,4 +40,6 @@ h1{
 .brazowa {
     background-image: linear-gradient(to top, #A83731 50%, transparent 50%);
 }
-
+.rama{
+    border:solid black 2px
+}
